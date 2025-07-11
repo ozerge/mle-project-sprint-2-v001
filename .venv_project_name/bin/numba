@@ -1,0 +1,8 @@
+#!/home/mle-user/mle_projects/mle-project-sprint-2-v001/.venv_project_name/bin/python3.10
+# -*- coding: UTF-8 -*-
+from __future__ import print_function, division, absolute_import
+
+from numba.misc.numba_entry import main
+
+if __name__ == "__main__":
+    main()
