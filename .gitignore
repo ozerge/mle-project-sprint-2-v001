@@ -128,6 +128,24 @@ ENV/
 env.bak/
 venv.bak/
 
+# Virtual environment
+.venv*/
+venv*/
+env*/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE
+.vscode/
+.idea/
+
+# Logs and databases
+*.log
+*.sqlite
+
 # Spyder project settings
 .spyderproject
 .spyproject
@@ -171,4 +189,4 @@ cython_debug/
 .DS_Store
 
 # Another cache
-cache/
+cache/.venv_project_name/
