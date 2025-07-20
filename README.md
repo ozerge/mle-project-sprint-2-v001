@@ -90,7 +90,7 @@ run_id = "aac9b6208500448e987482b3df63fa03"
 
 - Вывод сохранен в директории [assets](model_improvement/assets/):  
     -`conclusions_eda.md`
-- Все графики для анализа сохранены в отельные файлы директории [assets](model_improvement/assets/)<br> :  
+- Все графики для анализа сохранены в отельные файлы директории [assets](model_improvement/assets/):  
     - `cat_features.png`  
     - `num_features.png`
     - `statistics_by_year.png`
@@ -143,10 +143,10 @@ experiment_id = 31
 run_id = "aff45617a5e547178d7fefe9299a7438"
 ```
 - Для отбора признаков использовались два подхода из библиотеки mlxtend: SequentialFeatureSelector методом forward и backward.  
-- Все графики для анализа сохранены в отельные файлы директории [assets_fs](model_improvement/assets_fs/)<br>:    
+- Все графики для анализа сохранены в отельные файлы директории [assets_fs](model_improvement/assets_fs/):    
     - `sfs.png`  
     - `sbs.png`    
-- Список выбранных признаков сохранен в директории [assets_fs](model_improvement/assets_fs/)<br>:
+- Список выбранных признаков сохранен в директории [assets_fs](model_improvement/assets_fs/):
     - `selected_features_name.pkl`  
 
 Модель, графики, метрики и ноутбук залогированы.  
@@ -178,7 +178,7 @@ Random Search vs Bayesian Optimization
 - Оба метода нашли разные оптимальные параметры.  
 - Random Search выбрал более высокую learning_rate (0.05 vs 0.001) и больше iterations (1500 vs 1205).  
 - Выбираем Random Search, так как он дал лучший RMSE. Разница в качестве существенна (~11.9% улучшения).
-- Итоговые параметры,вывод и таблица сравнения двух методов сохранены в директории [assets_hyp](model_improvement/assets_hyp/)<br>:
+- Итоговые параметры,вывод и таблица сравнения двух методов сохранены в директории [assets_hyp](model_improvement/assets_hyp/):
     - `best_params_final.json`
     - `summary.md`
     - `results.csv`
