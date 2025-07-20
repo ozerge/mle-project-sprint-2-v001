@@ -90,7 +90,7 @@ run_id = "aac9b6208500448e987482b3df63fa03"
 
 - Вывод сохранен в директории [assets](model_improvement/assets/)<br>:  
     -`conclusions_eda.md`
-- Все графики для анализа сохранены в отельные файлы директории [assets](model_improvement/assets/)<br>:  
+- Все графики для анализа сохранены в отельные файлы директории [assets](model_improvement/assets/)<br> :  
     - `cat_features.png`  
     - `num_features.png`
     - `statistics_by_year.png`
