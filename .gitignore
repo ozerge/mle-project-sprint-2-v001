@@ -182,7 +182,7 @@ cython_debug/
 .env*
 
 # data
-*.csv
+#*.csv
 *.py_mycache
 
 # Mac OS
