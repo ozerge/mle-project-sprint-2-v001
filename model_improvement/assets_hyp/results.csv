@@ -1,0 +1,9 @@
+﻿Method,Best RMSE,Time,Parameters
+Random Search,0.29583,13m 3s,"learning_rate: 0.0500
+depth: 8
+l2_leaf_reg: 3
+iterations: 1500"
+Bayesian Optimization,0.33102,8m 0s,"learning_rate: 0.0010
+depth: 6
+l2_leaf_reg: 5.8373
+iterations: 1205"
